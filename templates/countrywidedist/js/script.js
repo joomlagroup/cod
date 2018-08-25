@@ -175,18 +175,14 @@
 
                                     if (flag == 0) {
                                         $(this).next('ul.nav-child').slideDown(function() {
-
                                             $(this).parent().find('i').removeClass('fa-plus');
                                             $(this).parent().find('i').addClass('fa-minus');
-                                            $(this).addClass('scroll_ul');
                                             flag = 1;
                                         })
                                     } else {
                                         $(this).next('ul.nav-child').slideUp(function() {
-
                                             $(this).parent().find('i').removeClass('fa-minus');
                                             $(this).parent().find('i').addClass('fa-plus');
-                                            $(this).removeClass('scroll_ul');
                                             flag = 0;
 
                                         })
