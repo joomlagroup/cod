@@ -199,6 +199,11 @@
                         }
                     }
                 });
+
+                var height = $( window ).height();
+                var menu_height = height - 140;
+                $('#menu-navigation .menu').css('height',menu_height + 'px');
+
             } else {
                 $('#menu-navigation li.parent .icon_expand').remove();
                 $('#menu-navigation > ul.nav').removeAttr('style');
