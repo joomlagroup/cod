@@ -2317,12 +2317,7 @@ and (min-width : 1224px) {
         position: relative;
         z-index: 10;
     }
-
-    .scroll_ul {
-        max-height: 100px;
-        overflow-y: scroll;
-    }
-
+	
 	#menu-navigation .menu {
 		overflow-y: scroll;
 	}
