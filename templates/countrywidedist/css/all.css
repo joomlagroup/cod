@@ -2341,7 +2341,7 @@ and (min-width : 1224px) {
 
 @media screen and (max-width: 768px)  {
 	.cfdiv_checkboxgroup label, .cfdiv_radio label {
-		width: 42%;
+		width: 28%;
 	}
 }
 
@@ -2458,7 +2458,7 @@ and (min-width : 1224px) {
 @-moz-document url-prefix() {
 	@media screen and (max-width: 768px)  {
 		.cfdiv_checkboxgroup label, .cfdiv_radio label {
-			width: 43%;
+			width: 28%;
 		}
 	}
 
