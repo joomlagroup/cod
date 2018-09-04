@@ -2325,6 +2325,18 @@ and (min-width : 1224px) {
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.cfdiv_checkboxgroup label, .cfdiv_radio label {
+		margin: 10px 0px !important;
+	}
+
+	.cfdiv_checkboxgroup label, .cfdiv_radio label, .cfdiv_checkboxgroup input, .cfdiv_radio input {
+		margin: 10px 10px 10px 0px !important;
+	}
+}
+
+
+
 @media screen and (max-width: 768px)  {
     .cfdiv_checkboxgroup label, .cfdiv_radio label {
         width: 26%;
@@ -2405,7 +2417,7 @@ and (min-width : 1224px) {
 
 @media screen and (max-width: 406px)  {
     .cfdiv_checkboxgroup label, .cfdiv_radio label {
-        width: 39%;
+        width: 42%;
     }
 }
 
@@ -2439,7 +2451,7 @@ and (min-width : 1224px) {
     }
 }
 
-/* for firefox */
+/* for firefox:comparative-quote page*/
 @-moz-document url-prefix() {
     @media screen and (max-width: 768px)  {
         .cfdiv_checkboxgroup label, .cfdiv_radio label {
@@ -2485,7 +2497,7 @@ and (min-width : 1224px) {
 
     @media screen and (max-width: 406px)  {
         .cfdiv_checkboxgroup label, .cfdiv_radio label {
-            width: 35%;
+            width: 42%;
         }
     }
 
