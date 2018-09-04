@@ -2324,3 +2324,72 @@ and (min-width : 1224px) {
 		z-index: 9999;
 	}
 }
+
+@media screen and (max-width: 768px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 39%;
+    }
+}
+
+@media screen and (max-width: 650px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 39%;
+    }
+}
+
+@media screen and (max-width: 512px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 39%;
+    }
+}
+
+@media screen and (max-width: 467px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 464px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 450px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 410px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 406px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 340px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 350px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 326px)  {
+    .cfdiv_checkboxgroup label, .cfdiv_radio label {
+        width: 79%;
+    }
+}
+
+
+
